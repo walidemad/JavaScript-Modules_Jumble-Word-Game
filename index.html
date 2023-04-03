@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Word Jumble Game</title>
+  </head>
+  <body>
+    <h1 id="title">Unscramble the Word</h1>
+    <div id="game-board">
+      <p id="jumbled-word"></p>
+      <form>
+        <input
+          type="text"
+          id="guess-input"
+          placeholder="Enter your guess"
+          autocomplete="off"
+        />
+        <button id="submit-button" type="submit">Submit</button>
+      </form>
+      <p id="result"></p>
+    </div>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
